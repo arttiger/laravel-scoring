@@ -1,0 +1,57 @@
+{
+    "name": "arttiger/laravel-scoring",
+    "description": "Integration of scoring systems for Laravel",
+    "keywords": [
+        "Laravel",
+        "scoring"
+    ],
+    "homepage": "https://github.com/arttiger/laravel-scoring",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Volodymyr Farylevych",
+            "email": "vfarylevych@gmail.com",
+            "homepage": "https://farylevych.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "vfarylevych@gmail.com",
+        "irc": "irc://irc.freenode.org/composer"
+    },
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0|^5.0|^6.0",
+        "phpunit/phpunit": "^8.0",
+        "styleci/cli": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arttiger\\Scoring\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Arttiger\\Scoring\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arttiger\\Scoring\\ScoringServiceProvider"
+            ],
+            "aliases": {
+                "Scoring": "Arttiger\\Scoring\\Facades\\Scoring"
+            }
+        }
+    }
+}
