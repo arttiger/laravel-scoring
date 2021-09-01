@@ -1,7 +1,7 @@
 # Laravel Scoring
 
 <p align="center">
-    <a href="https://github.styleci.io/repos/000000000"><img src="https://github.styleci.io/repos/000000000/shield?style=flat" alt="StyleCI Status"></a>
+    <a href="https://github.styleci.io/repos/402087252"><img src="https://github.styleci.io/repos/402087252/shield?style=flat" alt="StyleCI Status"></a>
     <a href="https://packagist.org/packages/arttiger/laravel-scoring"><img src="https://img.shields.io/packagist/dt/arttiger/laravel-scoring?style=flat" alt="Total Downloads"></a>
     <a href="https://packagist.org/packages/arttiger/laravel-scoring"><img src="https://img.shields.io/packagist/v/arttiger/laravel-scoring?style=flat" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/arttiger/laravel-scoring"><img src="https://img.shields.io/packagist/l/arttiger/laravel-scoring?style=flat" alt="License"></a>
